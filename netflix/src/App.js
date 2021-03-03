@@ -5,6 +5,7 @@ import MovieRow from "./components/MovieRow";
 import FeatureMovie from "./components/FeatureMovie";
 import Header from "./components/Header";
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default () => {
   const [movieList, setMovieList] = useState([]);
   const [featureData, setFeatureData] = useState(null);

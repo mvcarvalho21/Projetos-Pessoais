@@ -1,6 +1,7 @@
 import React from "react";
 import "./FeatureMovie.css";
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default ({ item }) => {
   let firstDate = new Date(item.first_air_date);
   let genres = [];
